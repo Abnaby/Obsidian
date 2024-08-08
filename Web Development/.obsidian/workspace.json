@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Develpment/JS/3. Array Higher Order Functions.md",
+                "file": "Web Develpment/JS/5. DOM (Document Object Model).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/3. Array Higher Order Functions.md",
+                "file": "Web Develpment/JS/5. DOM (Document Object Model).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/3. Array Higher Order Functions.md",
+                "file": "Web Develpment/JS/5. DOM (Document Object Model).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/3. Array Higher Order Functions.md"
+                "file": "Web Develpment/JS/5. DOM (Document Object Model).md"
               }
             }
           }
@@ -146,13 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3133355ae0e216f",
+  "active": "c645aab6032b503e",
   "lastOpenFiles": [
-    "Web Develpment/JS/2. Basics.md",
-    "Web Develpment/JS/3. Array Higher Order Functions.md",
+    "Web Develpment/JS/4. OOP.md",
+    "Web Develpment/JS/5. DOM (Document Object Model).md",
     "Web Develpment/JS/1. Add JS file to HTML.md",
-    "Web Develpment/JS/JS Path Info.md",
     "Pasted image 20240804183340.png",
+    "Web Develpment/JS/4. OOP",
+    "Web Develpment/JS/JS Path Info.md",
+    "Web Develpment/JS/3. Array Higher Order Functions.md",
+    "Web Develpment/JS/4, OOP",
+    "Web Develpment/JS/2. Basics.md",
     "Pasted image 20240804183433.png",
     "Eros.md",
     "Nyx.md",
