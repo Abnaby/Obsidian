@@ -1,0 +1,1 @@
+[[1. Add JS file to HTML]] and [[2. Basics]]
