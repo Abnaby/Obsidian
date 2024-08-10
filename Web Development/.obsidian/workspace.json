@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Develpment/JS/5. DOM (Document Object Model).md",
+                "file": "Web Develpment/JS/7. DOM Check Attributes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/5. DOM (Document Object Model).md",
+                "file": "Web Develpment/JS/7. DOM Check Attributes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/5. DOM (Document Object Model).md",
+                "file": "Web Develpment/JS/7. DOM Check Attributes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/5. DOM (Document Object Model).md"
+                "file": "Web Develpment/JS/7. DOM Check Attributes.md"
               }
             }
           }
@@ -148,9 +148,16 @@
   },
   "active": "c645aab6032b503e",
   "lastOpenFiles": [
-    "Web Develpment/JS/4. OOP.md",
+    "Web Develpment/JS/6. DOM Get Set Elements Content And Attributes.md",
+    "Web Develpment/JS/7. DOM Check Attributes.md",
     "Web Develpment/JS/5. DOM (Document Object Model).md",
+    "Pasted image 20240810131321.png",
+    "Pasted image 20240810130337.png",
     "Web Develpment/JS/1. Add JS file to HTML.md",
+    "Web Develpment/JS/Env Example/main.js",
+    "Web Develpment/JS/Env Example/index.html",
+    "Web Develpment/JS/Env Example",
+    "Web Develpment/JS/4. OOP.md",
     "Pasted image 20240804183340.png",
     "Web Develpment/JS/4. OOP",
     "Web Develpment/JS/JS Path Info.md",
