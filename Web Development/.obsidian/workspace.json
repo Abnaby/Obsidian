@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Develpment/JS/7. DOM Check Attributes.md",
+                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#createElement",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 472.5
   },
   "right": {
     "id": "620f7383996acac3",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/7. DOM Check Attributes.md",
+                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/7. DOM Check Attributes.md",
+                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/7. DOM Check Attributes.md"
+                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md"
               }
             }
           }
@@ -148,32 +148,37 @@
   },
   "active": "c645aab6032b503e",
   "lastOpenFiles": [
-    "Web Develpment/JS/6. DOM Get Set Elements Content And Attributes.md",
+    "Web Develpment/JS/9. DOM Traversing.md",
+    "Pasted image 20240810202337.png",
+    "Web Develpment/JS/10. Class List.md",
+    "Web Develpment/JS/JS Path Info.md",
     "Web Develpment/JS/7. DOM Check Attributes.md",
     "Web Develpment/JS/5. DOM (Document Object Model).md",
-    "Pasted image 20240810131321.png",
-    "Pasted image 20240810130337.png",
+    "Web Develpment/JS/3. Array Higher Order Functions.md",
+    "Web Develpment/imgs/Pasted image 20240804183340.png",
+    "Web Develpment/imgs/Pasted image 20240810191931.png",
+    "Web Develpment/imgs/Pasted image 20240810191930.png",
+    "Web Develpment/imgs/Pasted image 20240810191918.png",
+    "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
+    "Web Develpment/imgs/Pasted image 20240810190619.png",
+    "Web Develpment/JS/2. Basics.md",
+    "Web Develpment/JS/6. DOM Get Set Elements Content And Attributes.md",
+    "Web Develpment/imgs/Pasted image 20240810131321.png",
+    "Web Develpment/imgs/Pasted image 20240810130337.png",
     "Web Develpment/JS/1. Add JS file to HTML.md",
     "Web Develpment/JS/Env Example/main.js",
     "Web Develpment/JS/Env Example/index.html",
     "Web Develpment/JS/Env Example",
     "Web Develpment/JS/4. OOP.md",
-    "Pasted image 20240804183340.png",
     "Web Develpment/JS/4. OOP",
-    "Web Develpment/JS/JS Path Info.md",
-    "Web Develpment/JS/3. Array Higher Order Functions.md",
     "Web Develpment/JS/4, OOP",
-    "Web Develpment/JS/2. Basics.md",
-    "Pasted image 20240804183433.png",
+    "Web Develpment/imgs/Pasted image 20240804183433.png",
     "Eros.md",
     "Nyx.md",
     "2024-08-04.md",
     "Untitled.md",
     "Web Develpment/imgs/Pasted image 20240804174844.png",
-    "Web Develpment/imgs/Pasted image 20240804174845.png",
-    "Web Develpment/imgs/Pasted image 20240804174746.png",
     "Web Develpment/imgs",
-    "Web Develpment/imgs/Pasted image 20240804174607.png",
     "Welcome.md",
     "Untitled.canvas",
     "Web Develpment/JS",
