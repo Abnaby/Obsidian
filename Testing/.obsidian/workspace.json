@@ -1,21 +1,24 @@
 {
   "main": {
-    "id": "8d00714d3d878087",
+    "id": "7a8b9cdac1798154",
     "type": "split",
     "children": [
       {
-        "id": "9f8bb384ccd046ed",
+        "id": "94469365fa5d9386",
         "type": "tabs",
         "children": [
           {
-            "id": "c645aab6032b503e",
+            "id": "ea466bdaf5efccb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
-                "mode": "source",
-                "source": false
+                "file": "ISTQB-FL/ISTQB-FL.canvas",
+                "viewState": {
+                  "x": -337.5,
+                  "y": -450.49998486328127,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -25,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cf1ce84c84b362f2",
+    "id": "6c761e43e8ab2266",
     "type": "split",
     "children": [
       {
-        "id": "c0728ce34b5fd13a",
+        "id": "399aeaedc556314c",
         "type": "tabs",
         "children": [
           {
-            "id": "f3133355ae0e216f",
+            "id": "03de839347295c09",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +46,12 @@
             }
           },
           {
-            "id": "448d175fe64f52ef",
+            "id": "fa15c5e87c342dd5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#createElement",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +61,7 @@
             }
           },
           {
-            "id": "64dcbfa9988a892b",
+            "id": "d3c138e8e3d0e117",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +72,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 300
   },
   "right": {
-    "id": "620f7383996acac3",
+    "id": "cb0eebc6a0221579",
     "type": "split",
     "children": [
       {
-        "id": "5c2ccf3e8be02df8",
+        "id": "c7b74f69fc307667",
         "type": "tabs",
         "children": [
           {
-            "id": "5083edb7638bb138",
+            "id": "fea6f905915c47f7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
+                "file": "ISTQB-FL/ISTQB-FL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +100,19 @@
             }
           },
           {
-            "id": "11f36a4bde3208a3",
+            "id": "4bd0ec2797a7a228",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
+                "file": "ISTQB-FL/ISTQB-FL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "df00621d3f8733a1",
+            "id": "077beda51b253079",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +123,12 @@
             }
           },
           {
-            "id": "46e695311ed595af",
+            "id": "ed2b3d3f196d459e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/8. DOM Create Element and Clone Node.md"
+                "file": "ISTQB-FL/ISTQB-FL.canvas"
               }
             }
           }
@@ -146,46 +149,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3133355ae0e216f",
+  "active": "ea466bdaf5efccb9",
   "lastOpenFiles": [
-    "Web Develpment/JS/Env Example/Small DOM Project/main.js",
-    "Web Develpment/JS/Env Example/Small DOM Project/index.html",
-    "Web Develpment/JS/Env Example/Small DOM Project",
-    "Web Develpment/JS/9. DOM Traversing.md",
-    "Pasted image 20240810202337.png",
-    "Web Develpment/JS/10. Class List.md",
-    "Web Develpment/JS/JS Path Info.md",
-    "Web Develpment/JS/7. DOM Check Attributes.md",
-    "Web Develpment/JS/5. DOM (Document Object Model).md",
-    "Web Develpment/JS/3. Array Higher Order Functions.md",
-    "Web Develpment/imgs/Pasted image 20240804183340.png",
-    "Web Develpment/imgs/Pasted image 20240810191931.png",
-    "Web Develpment/imgs/Pasted image 20240810191930.png",
-    "Web Develpment/imgs/Pasted image 20240810191918.png",
-    "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
-    "Web Develpment/imgs/Pasted image 20240810190619.png",
-    "Web Develpment/JS/2. Basics.md",
-    "Web Develpment/JS/6. DOM Get Set Elements Content And Attributes.md",
-    "Web Develpment/imgs/Pasted image 20240810131321.png",
-    "Web Develpment/imgs/Pasted image 20240810130337.png",
-    "Web Develpment/JS/1. Add JS file to HTML.md",
-    "Web Develpment/JS/Env Example/main.js",
-    "Web Develpment/JS/Env Example/index.html",
-    "Web Develpment/JS/Env Example",
-    "Web Develpment/JS/4. OOP.md",
-    "Web Develpment/JS/4. OOP",
-    "Web Develpment/JS/4, OOP",
-    "Web Develpment/imgs/Pasted image 20240804183433.png",
-    "Eros.md",
-    "Nyx.md",
-    "2024-08-04.md",
-    "Untitled.md",
-    "Web Develpment/imgs/Pasted image 20240804174844.png",
-    "Web Develpment/imgs",
-    "Welcome.md",
+    "ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md",
+    "ISTQB-FL/Keywords of Definitions.md",
+    "ISTQB-FL/ISTQB-FL.canvas",
+    "ISTQB-FL/CHAPTER1 - What is Testing.md",
+    "ISTQB-FL/Untitled.md",
+    "Pasted image 20240815130914.png",
+    "Pasted image 20240815130523.png",
+    "CHAPTER5.md",
+    "Test Planning.md",
+    "Pasted image 20240815124634.png",
     "Untitled.canvas",
-    "Web Develpment/JS",
-    "Web Develpment",
-    "create a link.md"
+    "ISTQB-FL",
+    "Welcome.md"
   ]
 }
