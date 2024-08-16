@@ -43,3 +43,16 @@ A ==collaboration-based test-first approach== that defines *acceptance tests in 
 ### Maintenance Testing
 - ==corrective, adaptive== to changes in the environment or improve performance or maintainability
 - Impact analysis may be done before a change is made
+### Static Testing
+- No code execution (finds defects directly ==(No failures)==)
+- ==evaluate the quality==
+- Static testing may more easily detect defects
+- applied for both verification and validation
+- measure quality characteristics that are not dependent on executing code (e.g., maintainability),
+### Moderator in Static Analysis Review
+ensures the ==effective running of review meetings==
+
+### Each Choice coverage
+The ==simplest coverage criterion== in the case of ==multiple sets of partitions==
+test cases to exercise each partition from each set of partitions at least once.
+does not take into account combinations of partitions

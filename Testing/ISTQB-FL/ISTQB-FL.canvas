@@ -1,9 +1,11 @@
 {
 	"nodes":[
 		{"id":"c7bd5c8e149894b4","type":"file","file":"ISTQB-FL/CHAPTER1 - What is Testing.md","x":-880,"y":-760,"width":360,"height":289},
-		{"id":"fdd03301aa8e3362","x":-880,"y":-380,"width":360,"height":420,"type":"file","file":"ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md"}
+		{"id":"fdd03301aa8e3362","type":"file","file":"ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md","x":-880,"y":-380,"width":360,"height":420},
+		{"id":"db1283992ae3ddba","x":-880,"y":-1200,"width":400,"height":240,"type":"file","file":"Pasted image 20240816174140.png"}
 	],
 	"edges":[
-		{"id":"eef43a8c7a316f58","fromNode":"c7bd5c8e149894b4","fromSide":"bottom","toNode":"fdd03301aa8e3362","toSide":"top"}
+		{"id":"eef43a8c7a316f58","fromNode":"c7bd5c8e149894b4","fromSide":"bottom","toNode":"fdd03301aa8e3362","toSide":"top"},
+		{"id":"3534f8b4c15714a8","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"c7bd5c8e149894b4","toSide":"top"}
 	]
 }
