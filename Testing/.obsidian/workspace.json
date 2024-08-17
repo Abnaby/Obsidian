@@ -35,11 +35,11 @@
         "currentTab": 1
       },
       {
-        "id": "69d1bed087b9ee74",
+        "id": "1527dc8284460b0e",
         "type": "tabs",
         "children": [
           {
-            "id": "5d1edc6ab5201d7f",
+            "id": "3cf96870ef1fa189",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,9 +179,9 @@
   },
   "active": "73ac8d021b5174f9",
   "lastOpenFiles": [
-    "Pasted image 20240817152338.png",
     "ISTQB-FL/Keywords of Definitions.md",
     "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
+    "Pasted image 20240817152338.png",
     "ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md",
     "ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md",
     "ISTQB-FL/CHAPTER3 - Static Analysis.md",

@@ -1,4 +1,4 @@
-### Test Planning
+## Test Planning
 - Describes the objectives, resources and processes for a test project
 - Contains
 	- schedule
@@ -106,3 +106,167 @@ $$
 	- unit (component) tests, integration (component integration) tests, and end-to-end tests.
 ### Testing Quadrants
 ![[Pasted image 20240817152338.png]]
+## Risk Management
+### Notes
+* internal and external factors
+* Risk management allows the organizations to 
+	* increase the likelihood of achieving objectives
+	* improve the quality of their products 
+	* increase the stakeholders’ confidence and trust.
+* main risk management activities
+	* Risk analysis
+		* risk identification + risk assessment;
+	* Risk control
+		* risk mitigation + risk monitoring
+* Risk
+	* characterized by two factors (which is a measure for the risk):
+		* Risk Likelihood
+			* the probability of the risk occurrence
+			* 0 <= RL <= 1
+		* Risk Impact
+			* the consequences of this occurrence
+	### Project Risks and Product Risks
+
+|**Risk Type**|**Description**|**Examples**|**Impact**|
+|---|---|---|---|
+|**Project Risks**|Related to the management and control of the project.|- Organizational issues (e.g., delays in work product deliveries, inaccurate estimates, cost-cutting)  <br>- People issues (e.g., insufficient skills, conflicts, communication problems, shortage of staff)  <br>- Technical issues (e.g., scope creep, poor tool support)  <br>- Supplier issues (e.g., third-party delivery failure, bankruptcy of the supporting company)|- Impact on project schedule, budget, or scope  <br>- Affects project's ability to achieve its objectives|
+|**Product Risks**|Related to the quality characteristics of the product.|- Missing or wrong functionality  <br>- Incorrect calculations  <br>- Runtime errors  <br>- Poor architecture  <br>- Inefficient algorithms  <br>- Inadequate response time  <br>- Poor user experience  <br>- Security vulnerabilities|- User dissatisfaction  <br>- Loss of revenue, trust, reputation  <br>- Damage to third parties  <br>- High maintenance costs, overload of the helpdesk  <br>- Criminal penalties  <br>- Physical damage, injuries, or death (in extreme cases)|
+### 1. Product Risk Analysis
+* goal of product risk analysis is to provide an awareness of product risk
+* product risk analysis begins early in the SDLC
+* Result
+	* Determine Scope 
+	* levels and propose test types to be performed
+	* test techniques to be employed and the coverage to be achieved
+	* test effort required for each task
+	* Prioritize testing.
+	* any activities in addition to testing could be employed to reduce risk
+* Consist of 
+####   1.1. Risk identification
+* Generating a comprehensive list of risks
+* Stakeholders can identify risks by using various techniques and tools, 
+	* brainstorming
+	* workshops
+	* interviews
+	* cause-effect diagrams
+####   1.2. Risk assessment
+* Steps 
+	1. categorization of identified risk
+	2. determining their risk likelihood, risk impact and level
+	3. prioritizing, and proposing ways to handle them
+* Risk assessment can
+	* Quantitative approach
+		* the risk level is calculated as the multiplication of risk likelihood and risk impact
+	* Qualitative approach 
+		* the risk level can be determined using a risk matrix.
+	* mix of them.
+### 2. Product Risk Control
+- Happens once a risk has been analyzed.
+- Consist of 
+####   1.1. Risk mitigation
+* implementing the actions proposed in risk assessment to reduce the risk level
+* By:
+	* testing
+	* risk acceptance
+	* risk transfer
+	* contingency plan
+* Actions that can be taken to mitigate the product risks by testing are as follows:
+	* Select the testers with the right level of experience
+	* Apply an appropriate __level of independence of testing__
+	* Conduct reviews and perform static analysis
+	* apply appropriate test techniques and coverage levels
+	* Perform dynamic testing, ==including regression testing==
+####   1.2. Risk assessment
+* ensure that the mitigation actions are effective, to obtain further information to improve risk assessment, and to identify emerging risks.
+## Test Monitoring, Test Control and Test Completion
+- **Test Monitoring**: 
+	- Involves gathering information about testing __to__ assess progress and determine if test exit criteria or related tasks are satisfied, such as meeting coverage targets for risks, requirements, or acceptance criteria.
+- **Test Control**: 
+	- Utilizes information from test monitoring to provide guidance and corrective actions for more effective testing. 
+	- Examples include:
+	    - Reprioritizing tests if a risk becomes an issue
+	    - Re-evaluating whether a test item meets entry/exit criteria after rework
+	    - Adjusting the test schedule for delays in test environment delivery
+    - Adding new resources when necessary
+- **Test Completion**: 
+	- Involves collecting data from completed test activities to consolidate experience and testware. 
+	- This occurs at milestones such as the ==completion of a test level, an Agile iteration, a test project, or a software release==.
+#### Metrics used in Testing
+* Test metrics are gathered to show progress against the planned schedule and budged
+* Common test metrics
+	* Project progress metrics (اي حاجه خاصه بالبروجكت بروجريس)
+		* task completion
+		* resource usage
+		* test effort
+	* Test progress metrics (اي حاجه خاصه بالتيست بروجريس)
+		* test case implementation ==progress==
+		* test environment preparation ==progress==
+		* number of test cases run/not run, passed/failed
+		* test execution time
+	* Product quality metrics (اي حاجه خاصه بالمنتج النهائي)
+		* availability
+		* response time
+		* ==mean time to failure==
+	* Defect metrics 
+		* number and priorities of ==defects== found/fixed
+		* ==defect== density
+		* ==defect== detection percentage
+	* Risk metrics 
+		* residual risk level
+	* Coverage metrics
+		* requirements coverage
+		* code coverage
+	* Cost metrics
+		* cost of testing
+		* organizational cost of quality
+#### Purpose, Content and Audience for Test Reports
+- **Purpose**:
+    - __Test reporting__ communicates test information during and after testing.
+    - __Test progress__ reports aid ongoing test control, providing data to adjust the test schedule, resources, or plan as needed.
+    - __Test completion__ reports summarize a specific stage of testing and provide information for future testing.
+- **Content**:
+    - **Test Progress Reports** (Regular Basis: daily, weekly, etc.):
+        - Test period
+        - Test progress (e.g., schedule adherence, deviations)
+        - Testing impediments and workarounds
+        - Test metrics
+        - New/changed risks
+        - Planned testing for the next period
+    - **Test Completion Reports** (Prepared during test completion):
+        - Test summary
+        - Evaluation of testing and __product quality__ based on the original test plan
+        - __Deviations__ from the test plan
+        - Testing impediments and workarounds
+        - __Test metrics based on test progress reports__
+        - Unmitigated risks and unresolved defects
+        - Lessons learned relevant to testing
+- **Audience**:
+    - Different audiences require tailored information.
+    - Frequent and informal reports are suitable for team members.
+    - Formal reports with a set template are used for completed projects, often following standards like ISO/IEC/IEEE 29119-3.
+    - options
+	    - Verbal communication
+	    - Dashboards (e.g., CI/CD dashboards, task boards, and burn-down charts)
+	    - Electronic communication channels (e.g., email, chat)
+	    - Online documentation
+	    - Formal test reports
+	- More formal communication may be more appropriate for distributed teams where direct face-to-face communication is not always possible due to geographical distance or time differences.
+	- different stakeholders are interested in different types of information.
+	- ==Communication should be tailored accordingly==
+## Configuration Management
+- **Purpose of Configuration Management (CM) in Testing:**
+    - Identify, control, and track work products 
+	    -  test plans, strategies, conditions
+	    -  test cases, scripts, results, logs, reports.
+- **Handling Complex Configuration Items:**
+    - Record components, relationships, and versions.
+    - Approved items become baselines, with changes controlled through formal processes.
+- **Change Tracking:**
+    - If the configuration item is approved for testing, ==it becomes a baseline==.
+    - Ability to revert to previous baselines to reproduce past test results.
+- **Support for Testing:**
+    - ==Unique identification== and version control for all configuration items.
+    - Track changes and maintain traceability throughout the test process.
+    - ==Unambiguous== referencing of documentation and software items in test documentation.
+- **Integration with DevOps:**
+    - Automated CM is part of DevOps pipelines for continuous integration, delivery, and deployment.

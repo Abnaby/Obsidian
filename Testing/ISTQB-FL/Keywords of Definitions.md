@@ -94,3 +94,20 @@ model showing that different ==tests may have different granularity==.
 ### Testing Quadrants
 ==group the test levels== with the appropriate test types, activities, test techniques and work products
 This model also ==provides a way to differentiate and describe the types of tests== to all stakeholders, including developers, testers, and business representatives.
+### Risk-based testing
+The test approach, in which test activities are selected, prioritized, and managed ==based on risk analysis and risk control==
+### Risk
+==potential== event, hazard, threat, or situation whose ==occurrence causes an adverse effect==.
+### Risk likelihood
+the probability of the risk occurrence (greater than zero and less than one)
+### Risk impact (harm)
+the consequences of this occurrence
+### Test monitoring
+concerned with gathering information about testing __to__ assess progress.
+### Test control
+uses the information from test monitoring to provide, ==in a form of the control directives==, guidance and the necessary ==corrective actions== to achieve the most effective and efficient testing
+### Test Completion
+- collects data from completed test activities to consolidate experience, testware, and any other relevant information.
+- Include Test metrics based on test progress reports 
+### Residual Risk 
+the remaining level of risk following the development and implementation of the entity's response
