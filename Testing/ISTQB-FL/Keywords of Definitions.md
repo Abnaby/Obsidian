@@ -56,3 +56,41 @@ ensures the ==effective running of review meetings==
 The ==simplest coverage criterion== in the case of ==multiple sets of partitions==
 test cases to exercise each partition from each set of partitions at least once.
 does not take into account combinations of partitions
+### Branch
+branch is a transfer of ==control between two nodes==
+#### high-level test case
+A test case with ==abstract preconditions, input data, expected results, postconditions, and actions== (where applicable).
+#### Error Guessing 
+==anticipate the occurrence of errors==, defects, and failures, based on the tester’s knowledge
+### Fault attacks
+==methodical approach== to the implementation of ==error guessing==
+### checklist-based testing
+provide guidelines and ==some degree of consistency== for the testing.
+### User Story
+represents a feature that will be valuable to either a user or purchaser of a system or software.
+- Card : ==medium== describing a user story
+- Conversation – ==explains== how the software will be used
+- Confirmation – the ==acceptance criteria==
+### Acceptance Criteria
+- Describes both positive and negative scenarios.
+- Functional and Non Functional
+- Scenario-oriented (BDD)
+- Rule-oriented (bullet point verification list, tabulated form of input-output mapping)
+
+### Test Plan
+==Describes the objectives==, resources and processes for a test project
+### Entry criteria
+- preconditions for activity 
+* availability of resources
+### Exit criteria
+- must be achieved in order to declare an activity
+- measures of ==thoroughness==
+
+### Planning Poker
+-  variant of Wideband Delph
+- estimates are usually made using cards with numbers that represent the effort size.
+### Test Pyramid
+model showing that different ==tests may have different granularity==.
+### Testing Quadrants
+==group the test levels== with the appropriate test types, activities, test techniques and work products
+This model also ==provides a way to differentiate and describe the types of tests== to all stakeholders, including developers, testers, and business representatives.

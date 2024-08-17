@@ -24,6 +24,15 @@
 - part of system design
 - Tests are written before the part of the application is developed to satisfy the tests
 - Stakeholders domain language.
+- Test cases are created ==prior to implementing the user story==
+- must cover all the characteristics of the user story and should not go beyond the story
+- no two test cases should describe the same characteristics of the user story.
+- test cases are created by team members with different perspectives,
+- Steps:
+	- first test cases are positive, confirming the correct behavior
+	- After the positive test cases are done, the team should perform negative testing.
+- team should cover non-functional quality characteristics as well (e.g., performance efficiency, usability)
+- Test cases should be expressed in a way that is understandable for the stakeholders.
 #### Behavior-Driven Development (BDD)
 - simple form of natural language (Given/When/Then format)
 - easy to understand by stakeholders

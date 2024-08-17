@@ -13,6 +13,9 @@
 - Experience-based test techniques
 	- The effectiveness of these techniques depends heavily on the tester’s skills.
 	- experience-based test techniques are complementary to the black-box and white-box test techniques
+- Collaboration-based Test Approaches
+	- Objective 
+		- collaboration and communication, not found defects
 
 ### Black-box Test Techniques
 #### Equivalence Partitioning
@@ -77,5 +80,106 @@
 		* because it can typically be achieved without exercising all the transitions.
 		* Achieving full all transitions coverage guarantees both full all states coverage and full valid transitions coverage and should be a minimum requirement for mission and safety-critical software.
 ### White-box Test Techniques
+#### Notes
+- White-box techniques can be used in static testing
+- as well as pseudocode and other high level or top-down logic which can be modeled with a control flow graph
+- Performing only black-box testing does not provide a measure of actual code coverage
+- . White-box coverage measures provide an ==objective measurement== of coverage and provide the necessary information to allow additional tests to be generated to increase this coverage.
+#### Statement testing
+- the coverage items are executable statements.
+- all executable statements in the code have been exercised at least once
+- exercising a statement with a test case will not detect defects in all cases
+- __Coverage__ is measured as the number of statements exercised by the test cases divided by the total number of executable statements in the code
+#### Branch testing
+* Each transfer of control can be either unconditional (i.e., straight-line code) or conditional (i.e., a decision outcome).
+* exercising a branch with a test case will not detect defects in all cases
+* This means that any set of test cases achieving 100% branch coverage also achieves 100% statement coverage (but not vice versa).
+* __Coverage__ is measured as the number of branches exercised by the test cases divided by the total number of branches
 ### Experience-based Test Techniques
+#### Notes
+- In general, errors, defects and failures may be related to
+	- Inputs 
+		- correct input not accepted
+		- parameters wrong or missing
+	- Output
+		- wrong format
+		- wrong result
+	- Logic
+		- missing cases
+		- wrong operators
+	- Computational
+		- Incorrect operand
+		- wrong computation
+	- interfaces
+		- Parameter mismatch
+		- incompatible types
+	- Data
+		- incorrect initialization
+		- wrong type
+#### Error Guessing
+- anticipate the occurrence of errors, defects, and failures, based on the tester’s knowledge
+- Include:
+	- application has ==worked in the past==
+	- types of errors the developers tend to make and the types of defects
+	- types of failures that have occurred in other, similar applications
+- Fault attacks
+	- ==methodical approach== to the implementation of ==error guessing==
+- testers:
+	- create or acquire a __list of possible errors__, defects and failures
+		- These lists can be built based on experience
+	- design tests that will identify defects associated with the errors, expose the defects, or cause the failures
+#### Exploratory Testing
+- بتعلم ال ابلكيشن من خلال التيستنج 
+- Session based, with defined time box.
+- this approach test objectives may be treated as high-level test conditions.
+- Used when inadequate specs, lose of time.
+- Testers use 
+	- test charter containing test objectives to guide the testing
+	-  may use test session sheets to document the steps followed and the discoveries made.
+- as Experience-based Test Techniques it complementary 
+* The test session 
+	* is usually followed by a debriefing
+	* discussion between the tester and stakeholders
+* more effective 
+	* if the tester is experienced
+	* has domain knowledge 
+	* has a high degree of essential skills
+* __Coverage__ items are identified and exercised during the test session.
+#### Checklist-Based Testing
+- important for the user, for functional and non-functional 
+- become less effective with time 
+	- the developers will learn to avoid making the same errors
+- tester 
+	- designs, implements, and executes tests to cover test conditions from a checklist.
+- Checklists ==should not contain items ==that can be
+	- checked automatically
+	- Items better suited as entry/exit criteria
+	- items that are too general
+- New entries may also need to be added to reflect newly found high severity defects.
+- checklists should be regularly updated based on defect analysis.
+	- care should be taken to avoid letting the checklist become too long
 ### Collaboration-based Test Approaches
+- Objective 
+	- collaboration and communication, not found defects
+#### User Story
+- 3 C's
+	- Card
+		- the medium describing a user story
+		- may be represented in Index Card, Electronic board
+	- Conversation
+		- Explain software used
+		- Documented or Verbal
+		- __Acceptance criteria__ are usually a result of the conversation
+	- Confirmation
+		- The acceptance criteria
+- The most common format for a user story is “As a [role], I want [goal to be accomplished], so that I can [resulting business value for the role]” Followed by the acceptance criteria.
+#### Acceptance Criteria
+- conditions that an implementation of the user story must meet to be ==accepted by stakeholders==.
+- Acceptance criteria are usually a result of the Conversation
+- Acceptance criteria are used to:
+	- Scope of user story
+	- consensus among the stakeholders
+	- ==Positive/Negative Scenario==
+	- Allow accurate planning and estimation
+	- ==Scenario-oriented (Given/When/Then format used in BDD)==
+	- Rule-oriented
