@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISTQB-FL/CHAPTER3 - Static Analysis.md",
+                "file": "ISTQB-FL/Keywords of Definitions.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,30 +23,14 @@
             "id": "73ac8d021b5174f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "1527dc8284460b0e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3cf96870ef1fa189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISTQB-FL/Keywords of Definitions.md",
-                "mode": "source",
-                "source": false
+                "file": "ISTQB-FL/ISTQB-FL.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -116,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
+                "file": "ISTQB-FL/Keywords of Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
+                "file": "ISTQB-FL/Keywords of Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md"
+                "file": "ISTQB-FL/Keywords of Definitions.md"
               }
             }
           }
@@ -177,23 +161,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ac8d021b5174f9",
+  "active": "1df5a1bd1c5299b4",
   "lastOpenFiles": [
-    "ISTQB-FL/Keywords of Definitions.md",
+    "ISTQB-FL/ISTQB-FL.canvas",
+    "ISTQB-FL/CHAPTER3 - Static Analysis.md",
+    "ISTQB-FL/Imgs",
+    "ISTQB-FL/CHAPTER6 - Test Tools.md",
     "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
-    "Pasted image 20240817152338.png",
+    "ISTQB-FL/Imgs/Pasted image 20240818145247.png",
+    "ISTQB-FL/Keywords of Definitions.md",
+    "ISTQB-FL/Imgs/Pasted image 20240817152338.png",
     "ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md",
     "ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md",
-    "ISTQB-FL/CHAPTER3 - Static Analysis.md",
-    "ISTQB-FL/ISTQB-FL.canvas",
-    "Pasted image 20240816174140.png",
+    "ISTQB-FL/Imgs/Pasted image 20240816174140.png",
     "ISTQB-FL/Untitled.md",
     "ISTQB-FL/CHAPTER1 - What is Testing.md",
-    "Pasted image 20240815130914.png",
-    "Pasted image 20240815130523.png",
+    "ISTQB-FL/Imgs/Pasted image 20240815130914.png",
+    "ISTQB-FL/Imgs/Pasted image 20240815130523.png",
     "CHAPTER5.md",
     "Test Planning.md",
-    "Pasted image 20240815124634.png",
+    "ISTQB-FL/Imgs/Pasted image 20240815124634.png",
     "Untitled.canvas",
     "ISTQB-FL",
     "Welcome.md"

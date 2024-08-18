@@ -270,3 +270,34 @@ $$
     - ==Unambiguous== referencing of documentation and software items in test documentation.
 - **Integration with DevOps:**
     - Automated CM is part of DevOps pipelines for continuous integration, delivery, and deployment.
+## Defect Management
+- Major test objectives is to find defects
+- reported anomalies may turn out to be real defects or something else (e.g., false positive, change request)
+- Anomalies may be reported during any phase of the SDLC
+- Defect management process includes 
+	- a workflow for handling individual anomalies
+		- To log the reported anomalies.
+		- Analyze and classify them.
+- It is advisable to handle defects from static testing
+- The process must be followed by all involved stakeholders
+### *Objectives of Defect Reports*:
+1. Provide sufficient information to resolve reported defects.
+2. Track the quality of the work product.
+3. Offer ideas for improving the development and testing process.
+### *Content of a Typical Defect Report*:
+
+- **Unique Identifier**: A specific number or code for tracking.
+- **Title**: A short summary of the anomaly.
+- **Date and Author Information**: When the anomaly was observed, the issuing organization, and the author’s role.
+- **Test Object and Environment Identification**: Details about the environment and object being tested.
+- **Context of the Defect**: Information on the test case, activity, SDLC phase, and other relevant data.
+- **Failure Description**: Steps to reproduce the issue, including logs, screenshots, and recordings.
+- **Expected vs. Actual Results**: A comparison of what was expected versus what occurred.
+- **Severity and Priority**: Impact on stakeholders and urgency to fix.
+- **Status**: Current state of the defect (e.g., open, closed, awaiting confirmation).
+- **References**: Links to related test cases.
+![[Pasted image 20240818145247.png]]
+Severity vs priority
+مثلا عدد مستخدمين ال ipad في مصر لا يتعدو ال 10% فبالتالي هما بالنسبه لل android users همل low priority فمثلا لو في مشكله في ال sign up 
+android --> high priority, high severity
+ipad --> low priority, high severity 
