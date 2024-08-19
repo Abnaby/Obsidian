@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Develpment/JS/11. BOM - Window History Object.md",
+                "file": "Web Develpment/JS/12. BOM - Local Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/11. BOM - Window History Object.md",
+                "file": "Web Develpment/JS/12. BOM - Local Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/11. BOM - Window History Object.md",
+                "file": "Web Develpment/JS/12. BOM - Local Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/11. BOM - Window History Object.md"
+                "file": "Web Develpment/JS/12. BOM - Local Storage.md"
               }
             }
           }
@@ -148,9 +148,20 @@
   },
   "active": "c645aab6032b503e",
   "lastOpenFiles": [
-    "Web Develpment/JS/11. BOM - Timeout and Intervals.md",
-    "Web Develpment/JS/11. BOM - Window History Object.md",
+    "Web Develpment/JS/13. BOM - Session Storage.md",
+    "Web Develpment/JS/4. OOP.md",
     "Web Develpment/JS/10. DOM Class List.md",
+    "Web Develpment/JS/5. DOM (Document Object Model).md",
+    "Web Develpment/JS/6. DOM Get Set Elements Content And Attributes.md",
+    "Web Develpment/JS/Env Example/Small BOM Challenge/main.js",
+    "Web Develpment/JS/Env Example/Small BOM Challenge/index.html",
+    "Web Develpment/JS/Env Example/Small BOM Challenge",
+    "Web Develpment/JS/12. BOM - Local Storage.md",
+    "Web Develpment/JS/3. Array Higher Order Functions.md",
+    "Web Develpment/JS/2. Basics.md",
+    "Web Develpment/JS/11. BOM - Window History Object.md",
+    "Web Develpment/JS/11. BOM - Local Storage.md",
+    "Web Develpment/JS/11. BOM - Timeout and Intervals.md",
     "Web Develpment/JS/Untitled.md",
     "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
     "Web Develpment/JS/Env Example/Small DOM Project/main.js",
@@ -160,34 +171,26 @@
     "Pasted image 20240810202337.png",
     "Web Develpment/JS/JS Path Info.md",
     "Web Develpment/JS/7. DOM Check Attributes.md",
-    "Web Develpment/JS/5. DOM (Document Object Model).md",
-    "Web Develpment/JS/3. Array Higher Order Functions.md",
     "Web Develpment/imgs/Pasted image 20240804183340.png",
     "Web Develpment/imgs/Pasted image 20240810191931.png",
     "Web Develpment/imgs/Pasted image 20240810191930.png",
     "Web Develpment/imgs/Pasted image 20240810191918.png",
     "Web Develpment/imgs/Pasted image 20240810190619.png",
-    "Web Develpment/JS/2. Basics.md",
-    "Web Develpment/JS/6. DOM Get Set Elements Content And Attributes.md",
     "Web Develpment/imgs/Pasted image 20240810131321.png",
     "Web Develpment/imgs/Pasted image 20240810130337.png",
     "Web Develpment/JS/1. Add JS file to HTML.md",
     "Web Develpment/JS/Env Example/main.js",
     "Web Develpment/JS/Env Example/index.html",
     "Web Develpment/JS/Env Example",
-    "Web Develpment/JS/4. OOP.md",
     "Web Develpment/JS/4. OOP",
-    "Web Develpment/JS/4, OOP",
     "Web Develpment/imgs/Pasted image 20240804183433.png",
     "Eros.md",
     "Nyx.md",
     "2024-08-04.md",
     "Untitled.md",
     "Web Develpment/imgs/Pasted image 20240804174844.png",
-    "Web Develpment/imgs",
     "Welcome.md",
     "Untitled.canvas",
-    "Web Develpment/JS",
     "create a link.md"
   ]
 }
