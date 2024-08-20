@@ -18,6 +18,13 @@
   align-items: center;
   padding: 0 10px 0 10px;
 }
+.tasks-container {
+  overflow-y: auto;
+  max-height: 60vh;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
 .input {
   width: 80%;
   height: 52px;

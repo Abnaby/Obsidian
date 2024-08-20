@@ -8,8 +8,13 @@
   <body>
     <div class="container">
       <div class="form">
-        <input type="text" class="input" />
+        <p style="color: darkslateblue;">Hello,<br><span style="color: darkcyan;">Insert your tasks</span></p>
+        <input type="text" class="input" placeholder="Write your thoughts"/>
         <input type="submit" class="add" value="Add Task" />
+      </div>
+      <p class="error-msg" style="display: none"></p>
+      <div class="tasks-container">
+        <!-- Cards will be dynamically inserted here -->
       </div>
       <input
         type="submit"
@@ -17,7 +22,6 @@
         onclick="handleDeleteAllPressed();"
         value="Remove All Items"
       />
-      <p class="error-msg" style="display: none"></p>
     </div>
     <script src="main.js"></script>
   </body>

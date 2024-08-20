@@ -15,7 +15,7 @@ function UpdateHtmlItems() {
   checkboxs = document.querySelectorAll(".ItemCheckbox");
 }
 /**
- * 
+ *
  * @description this function triggred when delete all items button is pressed
  */
 function handleDeleteAllPressed() {
@@ -36,9 +36,9 @@ function handleDeleteAllPressed() {
   }
 }
 /**
- * 
+ *
  * @param {checkbox} pressedCheckbox
- * @description this function triggred when checkbox state is changed 
+ * @description this function triggred when checkbox state is changed
  */
 function handleCheckboxChange(checkbox) {
   let itemParagraph = checkbox.nextElementSibling;
@@ -60,9 +60,9 @@ function handleCheckboxChange(checkbox) {
   localStorage.setItem("Tasks", JSON_obj);
 }
 /**
- * 
+ *
  * @param {delteBtn} pressedButton
- * @description this function triggred when delete button is pressed 
+ * @description this function triggred when delete button is pressed
  */
 function handleDeletePressed(delteBtn) {
   let parentElement = delteBtn.parentElement;
@@ -120,7 +120,7 @@ function CreateItemOnPage(txt, isChecked = false) {
   ItemDiv.id = `card-${CardIdIndex}`;
 
   // Finally Append on container view
-  HTML_container_div.insertBefore(ItemDiv, HTML_container_div.children[2]); // Insert the new item at the after form
+  document.querySelector(".tasks-container").prepend(ItemDiv);
 
   // CSS Style
   input.checked = isChecked;
@@ -186,6 +186,9 @@ function handleNewInput() {
     errorMsg.textContent = "Empty String !!";
     errorMsg.style.display = "block";
     errorMsg.style.color = "red";
+    setTimeout(() => {
+      errorMsg.style.display = "none";
+    }, 3000);
   }
   // Clear String
   inputString.value = "";
@@ -212,9 +215,20 @@ function handleNewInput() {
   submitBtn.addEventListener("click", handleNewInput);
   // When Press Enter
   inputString.addEventListener("keydown", (keyButton) => {
+    // Scroll to the top of the tasks container
+    document.querySelector(".tasks-container").scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    // Check Input
     if (keyButton.key == "Enter") {
       handleNewInput();
     }
   });
-
+  inputString.addEventListener("focus", (keyButton) => {
+    document.querySelector(".tasks-container").scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
 }
