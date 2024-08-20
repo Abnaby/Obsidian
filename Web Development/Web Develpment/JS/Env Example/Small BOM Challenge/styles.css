@@ -8,6 +8,7 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  overflow: hidden;
 }
 .form {
   width: 1000px;
@@ -19,7 +20,7 @@
 }
 .input {
   width: 80%;
-  height: 50%;
+  height: 52px;
   border: 2px solid #ababab4d;
   border-radius: 12px 0px 0px 12px;
   border-right: 0;
@@ -29,6 +30,7 @@
 .add {
   height: 54%;
   width: 150px;
+  height: 55px;
   border: 2px solid #ababab4d;
   border-radius: 0px 12px 12px 0px;
   border-left: 0;
@@ -40,6 +42,10 @@
   border-radius: 2px 0px 0px 2px;
   outline: none;
 }
+.input:focus + .add {
+  border: 3px solid #ababab13;
+}
+
 .add:hover {
   cursor: pointer;
   border: 3px black;
@@ -60,6 +66,10 @@
 }
 .Item.show {
   opacity: 1;
+  height: auto;
+}
+.Item.hide {
+  opacity: 0;
   height: auto;
 }
 
@@ -89,4 +99,20 @@
   cursor: pointer;
   border-left: 0;
   color: #ff00009d;
+}
+.rmAll {
+  height: 50px;
+  min-width: 12%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(173, 116, 116);
+  background-color: rgba(239, 239, 239, 0.23);
+  cursor: pointer;
+  color: #1e1f21;
+  margin: 0 0 8px 0;
+  transition: ease 400ms;
+}
+.rmAll:hover {
+  color: rgba(173, 116, 116);
+  border: 2px solid #1e1f21;
 }
