@@ -85,13 +85,13 @@
 	1. Test monitoring : comparison of actual progress against the plan
 	2. Test control: taking the actions necessary to meet the objectives of testing
 	3. __Generated Reports__: Test progress report
-3. Test analysis (prioritize test conditions)
+3. Test analysis (prioritize test conditionsو identify ==testable features==)
 	- analyzing the test basis to identify ==testable features==.
 	- define and prioritize associated test conditions
 	- Test analysis is often supported by the use of test techniques.
 	- Test analysis answers the question “what to test?”
 	- ![[Pasted image 20240815130523.png]]
-4. Test design
+4. Test design (identification of coverage items)
 	- elaborating the test conditions into test cases and other testware
 	- This activity often involves the ==identification of coverage items==
 	- Test analysis is often supported by the use of test techniques.

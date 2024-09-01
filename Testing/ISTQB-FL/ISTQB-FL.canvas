@@ -6,7 +6,7 @@
 		{"id":"88df2b68ab7c6dbf","type":"file","file":"ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md","x":-120,"y":-800,"width":400,"height":240},
 		{"id":"cc385e545e6a3441","type":"file","file":"ISTQB-FL/CHAPTER5 - Managing the Test Activities.md","x":360,"y":-800,"width":400,"height":252},
 		{"id":"3ea6bab1b506e0af","type":"file","file":"ISTQB-FL/CHAPTER6 - Test Tools.md","x":860,"y":-800,"width":400,"height":252},
-		{"id":"db1283992ae3ddba","type":"file","file":"ISTQB-FL/Imgs/Pasted image 20240816174140.png","x":-320,"y":-1240,"width":400,"height":240}
+		{"id":"db1283992ae3ddba","type":"file","file":"Pasted image 20240816174140.png","x":-320,"y":-1240,"width":400,"height":240}
 	],
 	"edges":[
 		{"id":"3534f8b4c15714a8","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"c7bd5c8e149894b4","toSide":"top"},

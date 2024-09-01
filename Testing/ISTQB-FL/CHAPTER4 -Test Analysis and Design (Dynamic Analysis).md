@@ -182,4 +182,4 @@
 	- ==Positive/Negative Scenario==
 	- Allow accurate planning and estimation
 	- ==Scenario-oriented (Given/When/Then format used in BDD)==
-	- Rule-oriented
+	- Rule-oriented (Bullets)

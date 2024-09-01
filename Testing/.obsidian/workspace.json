@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "69e0e99a3432947f",
+        "id": "bcd06bbcf4a7a92a",
         "type": "tabs",
         "children": [
           {
-            "id": "1df5a1bd1c5299b4",
+            "id": "45c68a167fe0a1f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISTQB-FL/Keywords of Definitions.md",
+                "file": "ISTQB-FL/CHAPTER6 - Test Tools.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "73ac8d021b5174f9",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ISTQB-FL/ISTQB-FL.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
               }
             }
           }
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISTQB-FL/Keywords of Definitions.md",
+                "file": "ISTQB-FL/CHAPTER6 - Test Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISTQB-FL/Keywords of Definitions.md",
+                "file": "ISTQB-FL/CHAPTER6 - Test Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISTQB-FL/Keywords of Definitions.md"
+                "file": "ISTQB-FL/CHAPTER6 - Test Tools.md"
               }
             }
           }
@@ -148,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,26 +145,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1df5a1bd1c5299b4",
+  "active": "45c68a167fe0a1f2",
   "lastOpenFiles": [
-    "ISTQB-FL/ISTQB-FL.canvas",
+    "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
+    "ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md",
     "ISTQB-FL/CHAPTER3 - Static Analysis.md",
+    "ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md",
+    "ISTQB-FL/CHAPTER1 - What is Testing.md",
+    "Pasted image 20240815124634.png",
+    "Pasted image 20240816174140.png",
+    "Pasted image 20240815130523.png.md",
+    "Pasted image 20240817152338.png",
+    "ISTQB-FL/Keywords of Definitions.md",
+    "ISTQB-FL/ISTQB-FL.canvas",
     "ISTQB-FL/Imgs",
     "ISTQB-FL/CHAPTER6 - Test Tools.md",
-    "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
-    "ISTQB-FL/Imgs/Pasted image 20240818145247.png",
-    "ISTQB-FL/Keywords of Definitions.md",
-    "ISTQB-FL/Imgs/Pasted image 20240817152338.png",
-    "ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md",
-    "ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md",
-    "ISTQB-FL/Imgs/Pasted image 20240816174140.png",
+    "Pasted image 20240818145247.png",
     "ISTQB-FL/Untitled.md",
-    "ISTQB-FL/CHAPTER1 - What is Testing.md",
     "ISTQB-FL/Imgs/Pasted image 20240815130914.png",
     "ISTQB-FL/Imgs/Pasted image 20240815130523.png",
     "CHAPTER5.md",
     "Test Planning.md",
-    "ISTQB-FL/Imgs/Pasted image 20240815124634.png",
     "Untitled.canvas",
     "ISTQB-FL",
     "Welcome.md"
