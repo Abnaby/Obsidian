@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Develpment/JS/14. Destructuring.md",
+                "file": "Web Develpment/JS/19. Regular Expression.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/14. Destructuring.md",
+                "file": "Web Develpment/JS/19. Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/14. Destructuring.md",
+                "file": "Web Develpment/JS/19. Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/14. Destructuring.md"
+                "file": "Web Develpment/JS/19. Regular Expression.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "c645aab6032b503e",
   "lastOpenFiles": [
-    "Web Develpment/JS/2. Basics.md",
+    "Web Develpment/JS/18. Spread Syntax And Use Cases.md",
+    "Web Develpment/JS/19. Regular Expression.md",
+    "Web Develpment/JS/17. Array.md",
     "Web Develpment/JS/14. Destructuring.md",
+    "Web Develpment/JS/2. Basics.md",
     "Web Develpment/JS/9. DOM Traversing.md",
     "Web Develpment/JS/8. DOM Create Element and Clone Node.md",
     "Web Develpment/JS/12. BOM - Local Storage.md",
@@ -191,7 +194,6 @@
     "Untitled.md",
     "Web Develpment/imgs/Pasted image 20240804174844.png",
     "Welcome.md",
-    "Untitled.canvas",
-    "create a link.md"
+    "Untitled.canvas"
   ]
 }
