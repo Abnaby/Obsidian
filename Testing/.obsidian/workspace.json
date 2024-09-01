@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5c0690dc333f6d68",
+    "id": "7a8b9cdac1798154",
     "type": "split",
     "children": [
       {
-        "id": "84143c3cbf978bea",
+        "id": "bcd06bbcf4a7a92a",
         "type": "tabs",
         "children": [
           {
-            "id": "12e6a09027cc4fb6",
+            "id": "45c68a167fe0a1f2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7f94e546abbf1063",
+    "id": "6c761e43e8ab2266",
     "type": "split",
     "children": [
       {
-        "id": "e87a5e5f22481e48",
+        "id": "399aeaedc556314c",
         "type": "tabs",
         "children": [
           {
-            "id": "a0f70cf18d6d3484",
+            "id": "03de839347295c09",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "2de3fe20fe5dabed",
+            "id": "fa15c5e87c342dd5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "b470875f11683abb",
+            "id": "d3c138e8e3d0e117",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "745b25cffe260094",
+    "id": "cb0eebc6a0221579",
     "type": "split",
     "children": [
       {
-        "id": "014ff4ec9527f8a8",
+        "id": "c7b74f69fc307667",
         "type": "tabs",
         "children": [
           {
-            "id": "8112a8619e6271bd",
+            "id": "fea6f905915c47f7",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "7f6dfb6c1ac30207",
+            "id": "4bd0ec2797a7a228",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "a7f0207a6dbea7ae",
+            "id": "077beda51b253079",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "cb73784241e4584a",
+            "id": "ed2b3d3f196d459e",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,6 +137,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0f70cf18d6d3484",
-  "lastOpenFiles": []
+  "active": "45c68a167fe0a1f2",
+  "lastOpenFiles": [
+    "ISTQB-FL/Keywords of Definitions.md",
+    "ISTQB-FL/ISTQB-FL.canvas",
+    "ISTQB-FL/CHAPTER6 - Test Tools.md",
+    "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
+    "ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md",
+    "ISTQB-FL/CHAPTER3 - Static Analysis.md",
+    "ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md",
+    "ISTQB-FL/CHAPTER1 - What is Testing.md",
+    "Pasted image 20240815124634.png",
+    "Pasted image 20240816174140.png",
+    "Pasted image 20240815130523.png.md",
+    "Pasted image 20240817152338.png",
+    "ISTQB-FL/Imgs",
+    "Pasted image 20240818145247.png",
+    "ISTQB-FL/Untitled.md",
+    "ISTQB-FL/Imgs/Pasted image 20240815130914.png",
+    "ISTQB-FL/Imgs/Pasted image 20240815130523.png",
+    "CHAPTER5.md",
+    "Test Planning.md",
+    "Untitled.canvas",
+    "ISTQB-FL",
+    "Welcome.md"
+  ]
 }
