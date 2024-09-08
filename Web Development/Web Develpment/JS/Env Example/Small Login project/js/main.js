@@ -29,6 +29,7 @@ export class User {
   #_email;
   #_passwd;
   #_rule;
+  #_id;
   // Static
   static numberOfAllUsers = 0;
   // Proparties
@@ -37,33 +38,38 @@ export class User {
     this.#_email = email;
     this.#_passwd = password;
     this.#_rule = rule;
+    this.#_id = User.numberOfAllUsers;
     User.numberOfAllUsers++;
   }
-  // Encapsulation Setters and Getters
+  // Encapsulation Setters
   set updateName(newName) {
     this.#_name = newName;
   }
-  set updateEmail(newName) {
-    this.#_name = newName;
+  set updateEmail(newEmail) {
+    this.#_email = newEmail;
   }
-  set updatePassword(newName) {
-    this.#_name = newName;
+  set updatePassword(newPassword) {
+    this.#_passwd = newPassword;
   }
-  set updateRule(newName) {
-    // <!TODO> Change must be based on Rule
-    this.#_name = newName;
+  set updateRule(newRule) {
+    this.#_rule = newRule; // Change must be based on Rule
   }
+  // Encapsulation Getters
   get getName() {
     return this.#_name;
   }
   get getEmail() {
-    return this.#_name;
+    return this.#_email;
   }
   get getPassword() {
-    return this.#_name;
+    return this.#_passwd;
   }
   get getRule() {
-    return this.#_name;
+    return this.#_rule;
+  }
+
+  get getUserId() {
+    return this.#_id;
   }
 }
 
@@ -149,3 +155,35 @@ export function validatePassword(passwd) {
   }
   return retERROR.SUCCESS;
 }
+
+export function updateDatabase(arrObj) {
+  // Convert each User instance to a plain object before serializing to consider the Private Members
+  const serializableArray = arrObj.map((user) => ({
+    name: user.getName,
+    email: user.getEmail,
+    password: user.getPassword,
+    rule: user.getRule,
+    id: user.getUserId,
+  }));
+
+  // Convert to JSON
+  const JSON_obj = JSON.stringify(serializableArray);
+  // Store in localStorage
+  localStorage.setItem("Users", JSON_obj);
+}
+
+export function updateUsersArrayFromDatabase(arrObj) {
+  if (localStorage.getItem("Users")) {
+    // Reparse array
+    const JSON_obj = localStorage.getItem("Users");
+    const parsedArray = JSON.parse(JSON_obj);
+
+    // Convert plain objects back to User instances
+    parsedArray.forEach((item) => {
+      const user = new User(item.name, item.email, item.password, item.rule);
+      arrObj.push(user);
+    });
+  }
+}
+// Get users from Database
+updateUsersArrayFromDatabase(userArray);

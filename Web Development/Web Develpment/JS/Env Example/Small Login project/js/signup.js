@@ -7,6 +7,8 @@ import {
   validatePassword,
   retERROR,
   userArray,
+  updateDatabase,
+  updateUsersArrayFromDatabase,
 } from "./main.js";
 
 // Variables
@@ -104,6 +106,9 @@ addEventListener("submit", (e) => {
   // -------------- Append to Array
   userArray.push(userData);
 
+  // -------------- Update database
+  updateDatabase(userArray);
+
   // -------------- Value
   removeCharByChar(DOM_idx, SignUpForm);
 
@@ -111,6 +116,7 @@ addEventListener("submit", (e) => {
   passwd_Assets.forEach((element, index) => {
     element.classList.remove("visible");
   });
+
   // -------------- Reset Values
   retERROR.ERR_PASSWORD["Upper char"] = 0;
   retERROR.ERR_PASSWORD["Lower char"] = 0;
@@ -119,12 +125,6 @@ addEventListener("submit", (e) => {
   retERROR.ERR_PASSWORD["Password char"] = 0;
   retERROR.ERR_PASSWORD["Password"] = "";
   retERROR.ERR_PASSWORD["Is valid"] = 0;
-
-  // -------------- DEBUG SECTION ------------------
-  print("-------------- START DEBUG SECTION ------------------");
-  print(userData);
-  print(userArray);
-  print("-------------- END   DEBUG SECTION ------------------");
 });
 
 // Validate password while typing
