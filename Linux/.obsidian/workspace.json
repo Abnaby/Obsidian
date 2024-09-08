@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2c73bb0dc21493bc",
+        "id": "d46bfbe34eded6c0",
         "type": "tabs",
         "children": [
           {
-            "id": "c44ad7c531dace88",
+            "id": "49312a028db5c4c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. File Handling Internals.md",
+                "file": "6. Simple Utilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. File Handling Internals.md",
+                "file": "6. Simple Utilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. File Handling Internals.md",
+                "file": "6. Simple Utilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. File Handling Internals.md"
+                "file": "6. Simple Utilities.md"
               }
             }
           }
@@ -146,19 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c44ad7c531dace88",
+  "active": "49312a028db5c4c8",
   "lastOpenFiles": [
+    "5. File Help.md",
+    "6. Simple Utilities.md",
+    "Pasted image 20240908162841 1.png",
+    "Imgs/Pasted image 20240908162841.png",
+    "Imgs/Pasted image 20240908161957.png",
+    "4. File Handling Internals.md",
     "Imgs/Pasted image 20240905173003.png",
     "Imgs/Pasted image 20240905172835.png",
-    "4. File Handling Internals.md",
     "Imgs/Pasted image 20240905172540.png",
     "Imgs/Pasted image 20240905171431.png",
     "Imgs/Pasted image 20240905170501.png",
     "Imgs/Pasted image 20240905171428.png",
     "Imgs/Pasted image 20240905171409.png",
-    "Imgs/Pasted image 20240905171136.png",
-    "Imgs/Pasted image 20240905170324.png",
-    "Imgs/Pasted image 20240905170216.png",
     "2. File Management Commands.md",
     "3. Wildcards.md",
     "1. Unwrapping Linux File System.md",
