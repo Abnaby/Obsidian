@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Develpment/JS/21. Object Meta Data And Descriptor.md",
+                "file": "Web Develpment/JS/19. Regular Expression.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Develpment/JS/21. Object Meta Data And Descriptor.md",
+                "file": "Web Develpment/JS/19. Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Develpment/JS/21. Object Meta Data And Descriptor.md",
+                "file": "Web Develpment/JS/19. Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Develpment/JS/21. Object Meta Data And Descriptor.md"
+                "file": "Web Develpment/JS/19. Regular Expression.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "c645aab6032b503e",
   "lastOpenFiles": [
+    "Web Develpment/JS/21. Object Meta Data And Descriptor.md",
     "Web Develpment/JS/17. Array.md",
     "Web Develpment/JS/16. Set.md",
     "Web Develpment/JS/15. Map.md",
@@ -156,7 +157,6 @@
     "Web Develpment/JS/11. BOM - Timeout and Intervals.md",
     "Web Develpment/JS/2. Basics.md",
     "Web Develpment/JS/1. Add JS file to HTML.md",
-    "Web Develpment/JS/21. Object Meta Data And Descriptor.md",
     "Web Develpment/JS/19. Regular Expression.md",
     "Web Develpment/JS/20. JS OOP.md",
     "Web Develpment/JS/Env Example/Small Login project/js/main.js",

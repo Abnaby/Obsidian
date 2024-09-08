@@ -12,6 +12,15 @@ export const retERROR = Object.freeze({
   INVALID_LENGTH: 1,
   INVALID_FORMAT: 2,
   EMPTY_FIELD: 3,
+  ERR_PASSWORD: {
+    "Upper char": 0,
+    "Lower char": 0,
+    "Special char": 0,
+    "Digit char": 0,
+    "Password Length": 0,
+    Password: "",
+    "Is valid": 0,
+  },
 });
 /********************* Objects ***********************/
 export class User {
@@ -76,9 +85,67 @@ export function validateUserName(userName) {
     $ asserts the end of the string.
   */
   const userNameRegExp = /^[A-Za-z _-]+$/gi;
-  // print(`match ${userName.match(userNameRegExp)}`)
   if (userNameRegExp.test(userName) === false) {
     return retERROR.INVALID_FORMAT;
+  }
+  return retERROR.SUCCESS;
+}
+
+export function validateEmail(email) {
+  // Check if it empty
+  if (email === "") {
+    return retERROR.EMPTY_FIELD;
+  }
+  // Check emailRegExp
+  const emailRegExp = /[\w.-]+@([\w-]+\.)+[\w-]+/gi;
+  if (emailRegExp.test(email) === false) {
+    return retERROR.INVALID_FORMAT;
+  }
+  return retERROR.SUCCESS;
+}
+
+export function validatePassword(passwd) {
+  // Check if it empty
+  if (passwd === "") {
+    return retERROR.EMPTY_FIELD;
+  }
+  // Check Length
+  retERROR.ERR_PASSWORD["Password Length"] = passwd.length;
+  // Check password
+  if (/[a-z]/g.test(passwd)) {
+    retERROR.ERR_PASSWORD["Lower char"] = 1;
+  } else {
+    retERROR.ERR_PASSWORD["Lower char"] = 0;
+  }
+  if (/[A-Z]/g.test(passwd)) {
+    retERROR.ERR_PASSWORD["Upper char"] = 1;
+  } else {
+    retERROR.ERR_PASSWORD["Upper char"] = 0;
+  }
+  if (/\d/g.test(passwd)) {
+    retERROR.ERR_PASSWORD["Digit char"] = 1;
+  } else {
+    retERROR.ERR_PASSWORD["Digit char"] = 0;
+  }
+  if (/\!|\@|\#|\$|\%|\^|\&|\*|\_/g.test(passwd)) {
+    retERROR.ERR_PASSWORD["Special char"] = 1;
+  } else {
+    retERROR.ERR_PASSWORD["Special char"] = 0;
+  }
+  if (
+    !(
+      retERROR.ERR_PASSWORD["Lower char"] &&
+      retERROR.ERR_PASSWORD["Upper char"] &&
+      retERROR.ERR_PASSWORD["Digit char"] &&
+      retERROR.ERR_PASSWORD["Special char"] &&
+      retERROR.ERR_PASSWORD["Password Length"] > 8
+    )
+  ) {
+    return retERROR.INVALID_FORMAT;
+  } else {
+    // valid
+    retERROR.ERR_PASSWORD["Is valid"] = 1;
+    retERROR.ERR_PASSWORD["Password"] = passwd;
   }
   return retERROR.SUCCESS;
 }
