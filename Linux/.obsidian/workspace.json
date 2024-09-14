@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Simple Utilities.md",
+                "file": "7. Composite Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "022dedbb3a957458",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8. Input Output Internals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f285bf2d3d3d369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9. Learning About Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac695273ae62fe8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. Environment Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. Simple Utilities.md",
+                "file": "10. Environment Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. Simple Utilities.md",
+                "file": "10. Environment Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Simple Utilities.md"
+                "file": "10. Environment Variables.md"
               }
             }
           }
@@ -146,10 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49312a028db5c4c8",
+  "active": "ac695273ae62fe8f",
   "lastOpenFiles": [
-    "5. File Help.md",
+    "8. Input Output Internals.md",
+    "9. Learning About Shell.md",
+    "10. Environment Variables.md",
+    "7. Composite Commands.md",
     "6. Simple Utilities.md",
+    "5. File Help.md",
     "Pasted image 20240908162841 1.png",
     "Imgs/Pasted image 20240908162841.png",
     "Imgs/Pasted image 20240908161957.png",
