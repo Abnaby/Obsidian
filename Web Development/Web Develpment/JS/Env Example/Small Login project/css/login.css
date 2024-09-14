@@ -1,0 +1,38 @@
+* {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page input {
+  margin: 10px;
+  padding: 10px;
+}
+
+.result {
+  display: none;
+  padding: 4px 7px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+/* Final state: visible and in position */
+.result.visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}

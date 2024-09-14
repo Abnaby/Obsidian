@@ -12,6 +12,9 @@ export const retERROR = Object.freeze({
   INVALID_LENGTH: 1,
   INVALID_FORMAT: 2,
   EMPTY_FIELD: 3,
+  USER_NOT_FOUND: 4,
+  USER_EXIST_BEF: 5,
+  INVALID_OP: 6,
   ERR_PASSWORD: {
     "Upper char": 0,
     "Lower char": 0,
@@ -22,6 +25,7 @@ export const retERROR = Object.freeze({
     "Is valid": 0,
   },
 });
+
 /********************* Objects ***********************/
 export class User {
   // Private Members
@@ -185,5 +189,18 @@ export function updateUsersArrayFromDatabase(arrObj) {
     });
   }
 }
+
+// Check User Existance and Check Password
+export function checkUser(emailAddress) {
+  let ret = -1;
+  userArray.forEach((e) => {
+    if (e.getEmail === emailAddress) {
+      // User Exist Before
+      ret = e;
+    }
+  });
+  return ret;
+}
+
 // Get users from Database
 updateUsersArrayFromDatabase(userArray);
