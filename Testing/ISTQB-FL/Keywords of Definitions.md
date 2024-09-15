@@ -1,0 +1,113 @@
+### Root Cause Analysis (RCA)
+- ==Fundamental reason== for the occurrence of a problem
+### Testware
+- created as output ==work products== from the test activities
+### Tests wear out.
+- ==same tests are repeated many times==, they become ==increasingly ineffective== at detecting new defects
+### Risk register
+==list of risks== together with risk likelihood, risk impact and information about risk mitigation
+### Some of Test Activates tips 
+- Test analysis (prioritize ==test conditions==)
+- Test design (elaborating the test conditions into test cases) prioritize ==test cases==
+- Test Implementation (prioritize ==test procedures==), ==test execution schedule==
+### Whole Team Approach
+==creates synergy== by allowing the various skill sets
+### DevOps
+==organizational approach== aiming to ==create synergy== by getting development and operation.
+### Exhaustive testing is impossible
+ * ==Testing everything is not feasible==
+### SDLC
+==abstract, high-level representation== of the software development process.
+### Agile
+==lightweight work product documentation== and ==extensive test automation==
+### Acceptance test-driven development ATDD
+A ==collaboration-based test-first approach== that defines *acceptance tests in the stakeholders'* domain language. 
+### Retrospectives
+==post-project meetings== end of a project or an iteration, at a release milestone, or can be held when needed
+### Test Levels
+==Group of Test activates== *organized and managed together* 
+### Test Types
+==Group of Test activates== related to *specific quality characteristics* 
+### Functional testing
+==what== the test object should do
+### Non-functional testing
+==how== well the system behaves
+### Confirmation Testing 
+- ==confirms that an original defect== has been successfully fixed
+- No Money/Time: simply exercising the steps that should reproduce the failure caused by the defect
+### Regression testing
+- confirms that== ==no adverse consequences==
+-  may not be restricted to the test object itself
+- regression testing is a ==strong candidate==for automation
+- Impact analysis done before a change is made
+### Maintenance Testing
+- ==corrective, adaptive== to changes in the environment or improve performance or maintainability
+- Impact analysis may be done before a change is made
+### Static Testing
+- No code execution (finds defects directly ==(No failures)==)
+- ==evaluate the quality==
+- Static testing may more easily detect defects
+- applied for both verification and validation
+- measure quality characteristics that are not dependent on executing code (e.g., maintainability),
+### Moderator in Static Analysis Review
+ensures the ==effective running of review meetings==
+
+### Each Choice coverage
+The ==simplest coverage criterion== in the case of ==multiple sets of partitions==
+test cases to exercise each partition from each set of partitions at least once.
+does not take into account combinations of partitions
+### Branch
+branch is a transfer of ==control between two nodes==
+#### high-level test case
+A test case with ==abstract preconditions, input data, expected results, postconditions, and actions== (where applicable).
+#### Error Guessing 
+==anticipate the occurrence of errors==, defects, and failures, based on the tester’s knowledge
+### Fault attacks
+==methodical approach== to the implementation of ==error guessing==
+### checklist-based testing
+provide guidelines and ==some degree of consistency== for the testing.
+### User Story
+represents a feature that will be valuable to either a user or purchaser of a system or software.
+- Card : ==medium== describing a user story
+- Conversation – ==explains== how the software will be used
+- Confirmation – the ==acceptance criteria==
+### Acceptance Criteria
+- Describes both positive and negative scenarios.
+- Functional and Non Functional
+- Scenario-oriented (BDD)
+- Rule-oriented (bullet point verification list, tabulated form of input-output mapping)
+
+### Test Plan
+==Describes the objectives==, resources and processes for a test project
+### Entry criteria
+- preconditions for activity 
+* availability of resources
+### Exit criteria
+- must be achieved in order to declare an activity
+- measures of ==thoroughness==
+
+### Planning Poker
+-  variant of Wideband Delph
+- estimates are usually made using cards with numbers that represent the effort size.
+### Test Pyramid
+model showing that different ==tests may have different granularity==.
+### Testing Quadrants
+==group the test levels== with the appropriate test types, activities, test techniques and work products
+This model also ==provides a way to differentiate and describe the types of tests== to all stakeholders, including developers, testers, and business representatives.
+### Risk-based testing
+The test approach, in which test activities are selected, prioritized, and managed ==based on risk analysis and risk control==
+### Risk
+==potential== event, hazard, threat, or situation whose ==occurrence causes an adverse effect==.
+### Risk likelihood
+the probability of the risk occurrence (greater than zero and less than one)
+### Risk impact (harm)
+the consequences of this occurrence
+### Test monitoring
+concerned with gathering information about testing __to__ assess progress.
+### Test control
+uses the information from test monitoring to provide, ==in a form of the control directives==, guidance and the necessary ==corrective actions== to achieve the most effective and efficient testing
+### Test Completion
+- collects data from completed test activities to consolidate experience, testware, and any other relevant information.
+- Include Test metrics based on test progress reports 
+### Residual Risk 
+the remaining level of risk following the development and implementation of the entity's response

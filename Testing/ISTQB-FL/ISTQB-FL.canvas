@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c7bd5c8e149894b4","type":"file","file":"ISTQB-FL/CHAPTER1 - What is Testing.md","x":-1480,"y":-800,"width":360,"height":240},
+		{"id":"fdd03301aa8e3362","type":"file","file":"ISTQB-FL/CHAPTER2 - Testing Throughout the Software Development Lifecycle.md","x":-1040,"y":-800,"width":360,"height":240},
+		{"id":"4dc757546a6d87ef","type":"file","file":"ISTQB-FL/CHAPTER3 - Static Analysis.md","x":-620,"y":-800,"width":400,"height":240},
+		{"id":"88df2b68ab7c6dbf","type":"file","file":"ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md","x":-120,"y":-800,"width":400,"height":240},
+		{"id":"cc385e545e6a3441","type":"file","file":"ISTQB-FL/CHAPTER5 - Managing the Test Activities.md","x":360,"y":-800,"width":400,"height":252},
+		{"id":"3ea6bab1b506e0af","type":"file","file":"ISTQB-FL/CHAPTER6 - Test Tools.md","x":860,"y":-800,"width":400,"height":252},
+		{"id":"db1283992ae3ddba","type":"file","file":"Pasted image 20240816174140.png","x":-320,"y":-1240,"width":400,"height":240}
+	],
+	"edges":[
+		{"id":"3534f8b4c15714a8","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"c7bd5c8e149894b4","toSide":"top"},
+		{"id":"38f6e2837ac07329","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"fdd03301aa8e3362","toSide":"top"},
+		{"id":"942e2f1e8b2ffdba","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"4dc757546a6d87ef","toSide":"top"},
+		{"id":"7b4768ad2cf5ff4e","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"88df2b68ab7c6dbf","toSide":"top"},
+		{"id":"f03b02329a0ccb77","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"cc385e545e6a3441","toSide":"top"},
+		{"id":"b17b00c85623bcc7","fromNode":"db1283992ae3ddba","fromSide":"bottom","toNode":"3ea6bab1b506e0af","toSide":"top"}
+	]
+}
