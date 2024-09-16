@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"e52e0aeb73524008","x":-360,"y":-300,"width":520,"height":460,"type":"group","label":"STLC"},
+		{"id":"055a4ec0006e5deb","type":"file","file":"Manual Testing/STLC/1. Requirement Analysis.md","x":-340,"y":-260,"width":400,"height":50},
+		{"id":"45516f832098dbc4","type":"file","file":"Manual Testing/STLC/2. Test Planning.md","x":-320,"y":-180,"width":400,"height":55},
+		{"id":"53e25bd225b591be","type":"file","file":"Manual Testing/STLC/3. Test Case Development.md","x":-300,"y":-100,"width":400,"height":60},
+		{"id":"630d879d7dafed95","type":"file","file":"Manual Testing/STLC/4. Environment Setup.md","x":-280,"y":0,"width":400,"height":50},
+		{"id":"989115a81e0f2334","type":"file","file":"Manual Testing/STLC/5. Test Execution.md","x":-260,"y":80,"width":400,"height":60}
+	],
+	"edges":[
+		{"id":"8e295f220a9b4ad6","fromNode":"055a4ec0006e5deb","fromSide":"bottom","toNode":"45516f832098dbc4","toSide":"top"},
+		{"id":"3c98d7039a7dc835","fromNode":"45516f832098dbc4","fromSide":"bottom","toNode":"53e25bd225b591be","toSide":"top"},
+		{"id":"329985dac4de2e10","fromNode":"53e25bd225b591be","fromSide":"bottom","toNode":"630d879d7dafed95","toSide":"top"},
+		{"id":"35e234cc76ee5c89","fromNode":"630d879d7dafed95","fromSide":"bottom","toNode":"989115a81e0f2334","toSide":"top"}
+	]
+}
