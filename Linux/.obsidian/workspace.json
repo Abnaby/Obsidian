@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49312a028db5c4c8",
+            "id": "5ba17daf2fe0868c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. Composite Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "022dedbb3a957458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "8. Input Output Internals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f285bf2d3d3d369",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9. Learning About Shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac695273ae62fe8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. Environment Variables.md",
+                "file": "12- Users and Permissions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10. Environment Variables.md",
+                "file": "12- Users and Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10. Environment Variables.md",
+                "file": "12- Users and Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10. Environment Variables.md"
+                "file": "12- Users and Permissions.md"
               }
             }
           }
@@ -183,11 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac695273ae62fe8f",
+  "active": "5ba17daf2fe0868c",
   "lastOpenFiles": [
+    "Imgs/Pasted image 20240924173434.png",
+    "2. File Management Commands.md",
+    "3. Wildcards.md",
+    "1. Unwrapping Linux File System.md",
+    "12- Users and Permissions.md",
+    "10. Environment Variables.md",
     "8. Input Output Internals.md",
     "9. Learning About Shell.md",
-    "10. Environment Variables.md",
     "7. Composite Commands.md",
     "6. Simple Utilities.md",
     "5. File Help.md",
@@ -202,9 +170,6 @@
     "Imgs/Pasted image 20240905170501.png",
     "Imgs/Pasted image 20240905171428.png",
     "Imgs/Pasted image 20240905171409.png",
-    "2. File Management Commands.md",
-    "3. Wildcards.md",
-    "1. Unwrapping Linux File System.md",
     "Imgs",
     "Welcome.md"
   ]
