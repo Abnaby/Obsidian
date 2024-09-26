@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f2ff40eec007573",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Imgs/Pasted image 20240926171432.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12- Users and Permissions.md",
+                "file": "Imgs/Pasted image 20240926171432.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12- Users and Permissions.md",
+                "file": "Imgs/Pasted image 20240926171432.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12- Users and Permissions.md"
+                "file": "Imgs/Pasted image 20240926171432.png"
               }
             }
           }
@@ -146,13 +157,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ba17daf2fe0868c",
+  "active": "642aab4fed573484",
   "lastOpenFiles": [
+    "Imgs/Pasted image 20240926181016.png",
+    "13- Process Management (Part 1).md",
+    "Imgs/Pasted image 20240926181017.png",
+    "Imgs/Pasted image 20240926171432.png",
+    "12- Users and Permissions.md",
     "Imgs/Pasted image 20240924173434.png",
     "2. File Management Commands.md",
     "3. Wildcards.md",
     "1. Unwrapping Linux File System.md",
-    "12- Users and Permissions.md",
     "10. Environment Variables.md",
     "8. Input Output Internals.md",
     "9. Learning About Shell.md",
@@ -166,10 +181,6 @@
     "Imgs/Pasted image 20240905173003.png",
     "Imgs/Pasted image 20240905172835.png",
     "Imgs/Pasted image 20240905172540.png",
-    "Imgs/Pasted image 20240905171431.png",
-    "Imgs/Pasted image 20240905170501.png",
-    "Imgs/Pasted image 20240905171428.png",
-    "Imgs/Pasted image 20240905171409.png",
     "Imgs",
     "Welcome.md"
   ]
