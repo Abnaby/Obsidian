@@ -28,9 +28,19 @@
                 "file": "Imgs/Pasted image 20240926171432.png"
               }
             }
+          },
+          {
+            "id": "a7fe069b16d028c3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Imgs/Pasted image 20240929132509.png"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Imgs/Pasted image 20240926171432.png",
+                "file": "Imgs/Pasted image 20240929132509.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Imgs/Pasted image 20240926171432.png",
+                "file": "Imgs/Pasted image 20240929132509.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Imgs/Pasted image 20240926171432.png"
+                "file": "Imgs/Pasted image 20240929132509.png"
               }
             }
           }
@@ -159,11 +169,16 @@
   },
   "active": "642aab4fed573484",
   "lastOpenFiles": [
+    "14- Process Management (Part 2 - Automatic (Batch) Processes).md",
+    "Imgs/Pasted image 20240929144103.png",
+    "Imgs/Pasted image 20240929135754.png",
+    "Imgs/Pasted image 20240929135725.png",
+    "Imgs/Pasted image 20240929132509.png",
+    "13- Process Management (Part 1 - Interactive Processes).md",
+    "12- Users and Permissions.md",
     "Imgs/Pasted image 20240926181016.png",
-    "13- Process Management (Part 1).md",
     "Imgs/Pasted image 20240926181017.png",
     "Imgs/Pasted image 20240926171432.png",
-    "12- Users and Permissions.md",
     "Imgs/Pasted image 20240924173434.png",
     "2. File Management Commands.md",
     "3. Wildcards.md",
@@ -176,11 +191,7 @@
     "5. File Help.md",
     "Pasted image 20240908162841 1.png",
     "Imgs/Pasted image 20240908162841.png",
-    "Imgs/Pasted image 20240908161957.png",
     "4. File Handling Internals.md",
-    "Imgs/Pasted image 20240905173003.png",
-    "Imgs/Pasted image 20240905172835.png",
-    "Imgs/Pasted image 20240905172540.png",
     "Imgs",
     "Welcome.md"
   ]
