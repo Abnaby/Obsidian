@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "eca935531c1fe179",
+    "type": "split",
+    "children": [
+      {
+        "id": "235cf2c6b123cecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2767e3da0a93126",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/21. Object Meta Data And Descriptor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6ef9a531a6eb6a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/22. Generator Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "504587ec1f406a8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/23. Modules Import  & Export.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75831663bb266dea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/25. AJEX (Asynchronous JavaScript and XML).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cf7918e68c0b7552",
+    "type": "split",
+    "children": [
+      {
+        "id": "c43b6666aa0d3e1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10ec66448116233d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5084a87a21f8185a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ba06feab13f55c9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00e306d36e3b9317",
+    "type": "split",
+    "children": [
+      {
+        "id": "aaf6f03e80d721ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dffe1b41ff9fcfe1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JS/25. AJEX (Asynchronous JavaScript and XML).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a97e37187c470c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JS/25. AJEX (Asynchronous JavaScript and XML).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a1e379977edada89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b2de7fe067253086",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JS/25. AJEX (Asynchronous JavaScript and XML).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "10ec66448116233d",
+  "lastOpenFiles": [
+    "JS/7. DOM Check Attributes.md",
+    "JS/25. AJEX (Asynchronous JavaScript and XML).md",
+    "JS/24. JSON.md",
+    "JS/21. Object Meta Data And Descriptor.md",
+    "JS/23. Modules Import  & Export.md",
+    "JS/22. Generator Function.md"
+  ]
+}
