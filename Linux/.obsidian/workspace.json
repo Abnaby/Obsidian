@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5ba17daf2fe0868c",
+            "id": "e6e9365499a6e3d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12- Users and Permissions.md",
+                "file": "18. Using Signals.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "3f2ff40eec007573",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Imgs/Pasted image 20240926171432.png"
-              }
-            }
-          },
-          {
-            "id": "a7fe069b16d028c3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Imgs/Pasted image 20240929132509.png"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Imgs/Pasted image 20240929132509.png",
+                "file": "18. Using Signals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Imgs/Pasted image 20240929132509.png",
+                "file": "18. Using Signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Imgs/Pasted image 20240929132509.png"
+                "file": "18. Using Signals.md"
               }
             }
           }
@@ -169,17 +148,22 @@
   },
   "active": "642aab4fed573484",
   "lastOpenFiles": [
-    "14- Process Management (Part 2 - Automatic (Batch) Processes).md",
+    "Imgs/Pasted image 20241002140123.png",
+    "18. Using Signals.md",
+    "Pasted image 20241001155917 1.png",
+    "Pasted image 20241001155917.png",
+    "17. Process Life Cycle.md",
+    "Imgs/Pasted image 20241001154856.png",
+    "15- Process Management (Part 2 - Automatic (Batch) Processes).md",
+    "14- Process Management (Part 1 - Interactive Processes).md",
+    "13- Users and Permissions.md",
     "Imgs/Pasted image 20240929144103.png",
     "Imgs/Pasted image 20240929135754.png",
     "Imgs/Pasted image 20240929135725.png",
     "Imgs/Pasted image 20240929132509.png",
-    "13- Process Management (Part 1 - Interactive Processes).md",
-    "12- Users and Permissions.md",
     "Imgs/Pasted image 20240926181016.png",
     "Imgs/Pasted image 20240926181017.png",
     "Imgs/Pasted image 20240926171432.png",
-    "Imgs/Pasted image 20240924173434.png",
     "2. File Management Commands.md",
     "3. Wildcards.md",
     "1. Unwrapping Linux File System.md",
@@ -189,8 +173,6 @@
     "7. Composite Commands.md",
     "6. Simple Utilities.md",
     "5. File Help.md",
-    "Pasted image 20240908162841 1.png",
-    "Imgs/Pasted image 20240908162841.png",
     "4. File Handling Internals.md",
     "Imgs",
     "Welcome.md"
