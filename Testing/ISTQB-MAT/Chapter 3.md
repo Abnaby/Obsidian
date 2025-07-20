@@ -84,4 +84,43 @@
 - A further level of testing is “post-release” testing. Testing at this level includes downloading and installing the application from application stores.
 
 ## Experience Based Mobile Testing Techniques
+### Personas 
+- Personas are fictional characters which represent real customers.
+- They have motivations, expectations, problems, habits and goals.
+- Persona could have a name, gender, age, income, an educational background, and a location
+### Mnemonic 
+- mnemonic is a memory aid to remember something.
+- example of a mnemonic is SFiDPOT
+	- S – Structure
+	- F – Function
+	- i - Input
+	- D – Data
+	- P – Platform
+	- O – Operations
+	- T – Time
+- A ==mnemonic and heuristic== specifically dealing with mobile is I SLICED UP FUN
+	- Input, Store, Location, Interaction, Communication, Ergonomics, Data, Useability, Platform, Function, User Scenarios, Network
+### Heuristics 
+- A heuristic approach is a “rule of thumb” approach to problem solving, learning and discovery that employs a practical method
+- This does not guarantee to be optimal or perfect
+- Most mnemonics can be used as heuristics, but not every heuristic is a mnemonic.
+### Tours (اي كلام)
+### Session-Based Test Management (SBTM)
+- -based test management (SBTM) enables exploratory testing to be ==managed in a time-boxed fashion==. A session consists of three tasks:
+	- Session setup
+	- Test design and execution
+	- Issue investigation and reporting
+- Input --> Test Charter That Defined Test Objectives 
+- Output --> Document Test Execution activates
 ## Mobile Test Process
+#### Test Process 
+![[Pasted image 20250720232119.png]]
+#### Test Approaches
+- Mobile application testing includes activities to be performed by developers as well as testers.
+- Determining the appropriate depth of testing per test level, (i.e., component test, integration test, system test, field test, application store approval, post-release and user acceptance testing) are important for delivering good quality products.
+- Mobile development platforms provide a variety tools to support testing at the various levels
+	- Examples 
+		- a mobile simulator and/or mobile emulator can be used at the component testing level if there is a need to take advantage of the platform-provided framework and instrumentation APIs
+		- mobile simulators and/or mobile emulators can be used at the system testing level when actual devices are not available
+- It is very common for mobile apps to flip the Test Pyramid
+		- This means that there can be many manual tests.
