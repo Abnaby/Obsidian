@@ -8,35 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45c68a167fe0a1f2",
+            "id": "74c3deca34225d65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISTQB-FL/CHAPTER6 - Test Tools.md",
+                "file": "ISTQB-MAT/Chapter 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHAPTER6 - Test Tools"
+              "title": "Chapter 2"
             }
           },
           {
-            "id": "a09903209081ef37",
+            "id": "58d66c12081bbaf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISTQB-MAT/Chapter 1.md",
+                "file": "ISTQB-MAT/Chapter 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 1"
+              "title": "Chapter 2"
+            }
+          },
+          {
+            "id": "225382373994e4f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISTQB-MAT/Chapter 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 3"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -55,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -108,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISTQB-MAT/Chapter 1.md",
+                "file": "ISTQB-MAT/Chapter 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chapter 1"
+              "title": "Backlinks for Chapter 3"
             }
           },
           {
@@ -176,11 +191,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a09903209081ef37",
+  "active": "225382373994e4f2",
   "lastOpenFiles": [
     "ISTQB-MAT/~~$CTFL-MAT-Syllabus.pdf",
-    "ISTQB-MAT/CTFL-MAT-Syllabus.pdf",
+    "ISTQB-MAT/Chapter 2.md",
+    "ISTQB-MAT/Chapter 3.md",
     "ISTQB-MAT/Chapter 1.md",
+    "Pasted image 20250215155157.png",
+    "ISTQB-MAT/CTFL-MAT-Syllabus.pdf",
     "ISTQB-MAT",
     "ISTQB-FL/CHAPTER5 - Managing the Test Activities.md",
     "ISTQB-FL/CHAPTER4 -Test Analysis and Design (Dynamic Analysis).md",
