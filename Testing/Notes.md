@@ -1,0 +1,41 @@
+### CH1
+- General Test Event --> Bug Hunting
+- None Availability of Device/ different geographic locations --> Crowd Testing
+- Network not a part pf data analytics 
+- Device Portfolio --> Test Plan
+- Architecture 
+	- Client Side (Thin Client Apps for Browser Based JS Comptablity , Thick/Fat for native and hybrid apps)
+	- Server Side (Single Tier (Monolithic), Multi Tier )\
+- Connection Type
+	- Never/ Partially/ Always Connected 
+- Data Sych 
+	- Continuous mode 
+	- Store and Forward
+- Data Transfer 
+	- Sync 
+	- Asynch
+- Use of multiple device --> Market Fragmentation 
+- stakeholders --> Developers and Testers, OS Providers, Tools Providers
+### CH2
+- interoperability of a mobile application and it's co-existence with other apps on the device --> Notification Conflict with Other apps
+- platforms interoperability testing --> Backward compatibility, new feature of platform, notification handling 
+- Hybrid App --> MORE concern about performance issues and Interactions with device features 
+- Charger is a type of interruptions 
+- Input Methods --> Long Press, Pinch, Zoom, Swipes
+- Not Valid Option Testing connectivity methods --> Ensure that the user always sees his data usage as long as the application is running.
+### CH3 
+- Performance Testing --> Measure time and Resources Consumption 
+- Internationalize Testing --> Date Format 
+- Field Testing --> Testing Level not a Type/overcome risks that happen from the expected usage patterns of mobile applications
+- App Approval step --> Test Level 
+- Mnemonics can be used as heuristic but not vice versa 
+- Tours --> Expletory Testing , effective method for field testing
+- For Instability --> 
+	- Methods : OTA via Wifi and Cellular Data Data Cables
+	- Approach Desktop, Sideboarding, Application Stores 
+	- Condition installing/Interruption/ Deinstalling
+- Performance Testing --> Not Related with Power, tested on the device itself (chronometry)
+- Stress --> performance efficiency of the application when subjected to conditions beyond normal load, like High CPU Usage
+- **session-based test** --> Issues Investigating and Reporting
+- Personas --> Fictional Characters have name age ..
+- Usability --> Called Issues not a Bug
